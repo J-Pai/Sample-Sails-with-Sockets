@@ -5,7 +5,7 @@ $('#person-data').submit(function(e) {
         "/people/create",
         $('#person-data').serialize(),
         function(message){
-            console.log(message);
+        
         }
     );
     $('#person-data')[0].reset();

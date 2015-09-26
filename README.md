@@ -15,4 +15,4 @@ This section will go over how to run the web application.
 * After that, open a web browser on your local machine and type in "localhost".
 
 ## Interacting with the Web Application
-Currently, there are no interactive GUI features. In order to demo the web app, simply open a new tab in your current browser and type into the url: "localhost/people/create?name=NAME.HERE". After you do this, go back the the tab currently hosting the web app and the name you have entered will have shown up on the list automatically.
+In order to interact with the web app, simply input a name into the field and the name will show up in the web page automatically.
