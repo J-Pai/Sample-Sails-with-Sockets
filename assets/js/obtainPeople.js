@@ -2,7 +2,6 @@ var listPeople = $('#list-people');
 
 io.socket.post('/people/join',
     function (data, jwres) {
-        console.log(data);
         listPeople.html("");
         $.post('/people/findAll',
             function(data){
@@ -16,8 +15,6 @@ io.socket.post('/people/join',
 
 io.socket.on('update', 
     function(msg){
-        console.log(msg);
-        
         listPeople.html("");
         $.post('/people/findAll', 
             function(data){
