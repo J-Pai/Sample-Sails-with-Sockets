@@ -4,11 +4,13 @@ This package contains a sail web application which also showcases a basic web so
 This section will go over how to run the web application. 
 * Install node.js onto system.
 * Install the npm packages for sails using the following command: 
+
     ```bash
     sudo npm install sails -g
     ```
 * Clone this repository.
 * cd into the repository and run the following command:
+
     ```bash
     sudo sails lift
     ```
